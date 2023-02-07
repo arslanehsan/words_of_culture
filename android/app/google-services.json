@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "876021707989",
+    "firebase_url": "https://words-of-culture-default-rtdb.firebaseio.com",
+    "project_id": "words-of-culture",
+    "storage_bucket": "words-of-culture.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876021707989:android:98d5f07e01adb980e49e5c",
+        "android_client_info": {
+          "package_name": "com.stormdeve.words_of_culture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876021707989-vrnp16bpah26p6hk4434irrm2hoat0h4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stormdeve.words_of_culture",
+            "certificate_hash": "aa742e6f4ad37ea8acc7daec1db45c779822954a"
+          }
+        },
+        {
+          "client_id": "876021707989-i4872ffvkttficjpipd3c24ebk45aqts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCarXH9byyyvPYWLDrtdjvzzQ1-hoOKZ-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876021707989-i4872ffvkttficjpipd3c24ebk45aqts.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "876021707989-oftenplnd6saqjaa360hc822uekb31kg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.stormdeve.wordsOfCulture"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

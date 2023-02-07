@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_margin="8dp"-->
+<!--    android:orientation="vertical"-->
+<!--    android:background="@drawable/widget_background"-->
+<!--    android:padding="8dp"-->
+<!--    android:id="@+id/widget_container">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/widget_title"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="36sp"-->
+<!--        android:textStyle="bold"-->
+<!--        tools:text="Title" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/widget_message"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="18sp"-->
+<!--        tools:text="Message" />-->
+<!--</LinearLayout>-->
+
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/widget_background"
+
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/widget_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:gravity="center_horizontal"
+            android:padding="20dp"
+            android:textColor="#EDA800"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="Title" />
+
+
+        <TextView
+            android:id="@+id/widget_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/widget_title"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            tools:text="Message" />
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/tv_counter"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_alignParentTop="true"-->
+        <!--            android:gravity="center_horizontal"-->
+        <!--            android:padding="12dp"-->
+        <!--            android:text="&#45;&#45;"-->
+        <!--            android:textColor="@android:color/white"-->
+        <!--            android:textSize="16sp" />-->
+
+        <!--        <Button-->
+        <!--            android:id="@+id/bt_update"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_alignParentBottom="true"-->
+        <!--            android:text="Update Counter"-->
+        <!--            android:textColor="@android:color/holo_blue_dark"-->
+        <!--            android:textSize="12sp" />-->
+    </RelativeLayout>
+</FrameLayout>
